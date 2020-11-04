@@ -1,0 +1,13 @@
+C:\Users\John F\Desktop\PrometricConsoleApp\bin\Debug\netcoreapp3.1\PrometricConsoleApp.exe
+C:\Users\John F\Desktop\PrometricConsoleApp\bin\Debug\netcoreapp3.1\PrometricConsoleApp.deps.json
+C:\Users\John F\Desktop\PrometricConsoleApp\bin\Debug\netcoreapp3.1\PrometricConsoleApp.runtimeconfig.json
+C:\Users\John F\Desktop\PrometricConsoleApp\bin\Debug\netcoreapp3.1\PrometricConsoleApp.runtimeconfig.dev.json
+C:\Users\John F\Desktop\PrometricConsoleApp\bin\Debug\netcoreapp3.1\PrometricConsoleApp.dll
+C:\Users\John F\Desktop\PrometricConsoleApp\bin\Debug\netcoreapp3.1\PrometricConsoleApp.pdb
+C:\Users\John F\Desktop\PrometricConsoleApp\obj\Debug\netcoreapp3.1\PrometricConsoleApp.csprojAssemblyReference.cache
+C:\Users\John F\Desktop\PrometricConsoleApp\obj\Debug\netcoreapp3.1\PrometricConsoleApp.AssemblyInfoInputs.cache
+C:\Users\John F\Desktop\PrometricConsoleApp\obj\Debug\netcoreapp3.1\PrometricConsoleApp.AssemblyInfo.cs
+C:\Users\John F\Desktop\PrometricConsoleApp\obj\Debug\netcoreapp3.1\PrometricConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\John F\Desktop\PrometricConsoleApp\obj\Debug\netcoreapp3.1\PrometricConsoleApp.dll
+C:\Users\John F\Desktop\PrometricConsoleApp\obj\Debug\netcoreapp3.1\PrometricConsoleApp.pdb
+C:\Users\John F\Desktop\PrometricConsoleApp\obj\Debug\netcoreapp3.1\PrometricConsoleApp.genruntimeconfig.cache
