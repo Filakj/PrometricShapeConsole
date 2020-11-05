@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\John F\\Desktop\\PrometricConsoleApp\\PrometricConsoleApp.csproj": {}
+    "C:\\Users\\John F\\Desktop\\PrometricShapeConsole\\PrometricConsoleApp\\PrometricConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\John F\\Desktop\\PrometricConsoleApp\\PrometricConsoleApp.csproj": {
+    "C:\\Users\\John F\\Desktop\\PrometricShapeConsole\\PrometricConsoleApp\\PrometricConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John F\\Desktop\\PrometricConsoleApp\\PrometricConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\John F\\Desktop\\PrometricShapeConsole\\PrometricConsoleApp\\PrometricConsoleApp.csproj",
         "projectName": "PrometricConsoleApp",
-        "projectPath": "C:\\Users\\John F\\Desktop\\PrometricConsoleApp\\PrometricConsoleApp.csproj",
+        "projectPath": "C:\\Users\\John F\\Desktop\\PrometricShapeConsole\\PrometricConsoleApp\\PrometricConsoleApp.csproj",
         "packagesPath": "C:\\Users\\John F\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John F\\Desktop\\PrometricConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\John F\\Desktop\\PrometricShapeConsole\\PrometricConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\John F\\AppData\\Roaming\\NuGet\\NuGet.Config",

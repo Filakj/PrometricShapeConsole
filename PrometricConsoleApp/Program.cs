@@ -9,20 +9,23 @@ using System.Text.RegularExpressions;
 
 namespace PrometricConsoleApp
 {
+    //Class for program 
     class Program
     {
+        //allows user to interact with program and store shapes in memory 
         public static Shapes userShapes;
 
         //public static List<Shape> shapes = new ArrayList(); 
         static async System.Threading.Tasks.Task Main(string[] args)
         {
 
-
+            //Start of program 
             restart:
-            Console.WriteLine("Hello ! Welcome to the Shape Console. \nLet's Make Some Shapes!\n");
+            Console.WriteLine("Hello! Welcome to the Shape Console.\nLet's Make Some Shapes!\n");
             System.Threading.Thread.Sleep(3000);
 
-            
+            //Deserialization of a users prior shapes class 
+            // 
             try
             {
 
@@ -33,9 +36,11 @@ namespace PrometricConsoleApp
                 
 
             }
+            //catching generic exception 
+            //TODO add specific execption handling such as FileNotFound & Authentication 
             catch (Exception e)
             {
-                Console.WriteLine("No Previous Data");
+                Console.WriteLine("No Previous Data\n");
                 userShapes = new Shapes();
             }
             
@@ -43,10 +48,7 @@ namespace PrometricConsoleApp
         mainMenue:
             while (session)
             {
-                
-
-
-                
+                //Main menue options to create shapes , view q
                 Console.WriteLine("What would you like to do ?\n");
                 Console.WriteLine("(C) Create a shape. \n");
                 Console.WriteLine("(V) View your shapes. \n");
@@ -66,6 +68,7 @@ namespace PrometricConsoleApp
                     Console.WriteLine("View Your Shapes\n");
                     goto viewShapes; 
                 }
+                //serialize Shapes object 
 
                 if (input1 == "S")
                 {
@@ -99,7 +102,7 @@ namespace PrometricConsoleApp
 
 
 
-
+        //Section of code with creating shapes 
         createShape:
             while (session)
             {
@@ -109,7 +112,7 @@ namespace PrometricConsoleApp
                 Console.WriteLine("(t) Triangle\n");
                 Console.WriteLine("(s) Square\n");
                 Console.WriteLine("(r) Rectangle\n");
-                Console.WriteLine("(g) Generic Shape\n");
+                
                 Console.WriteLine("(m) Return to Main Menus\n");
                 String input2 = Console.ReadLine();
 
@@ -195,7 +198,7 @@ namespace PrometricConsoleApp
 
                     case "m":
                         Console.WriteLine("\nReturning to Main Menus");
-                        System.Threading.Thread.Sleep(3000);
+                        
                         Console.Clear();
                         goto mainMenue;
 
@@ -352,7 +355,7 @@ namespace PrometricConsoleApp
 
             }//session create shape 
 
-
+        //section of code for viewing shape(s) through shapes objects 
         viewShapes:
             Console.WriteLine("Let's Take A Look At Your Shapes!\n");
             userShapes.viewShapes();
@@ -396,7 +399,7 @@ namespace PrometricConsoleApp
 
                     case "m":
                         Console.WriteLine("Returning to Main Menus");
-                        System.Threading.Thread.Sleep(3000);
+                   
                         Console.Clear();
                         goto mainMenue;
 

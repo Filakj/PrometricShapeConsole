@@ -6,15 +6,19 @@ namespace PrometricConsoleApp
 {
     class Triangle : Shape
     {
-        
+        //Triange extends parent properties from parent Shape class 
 
         public Triangle()
         {
         }
+
+        // Trainge constructor with arguments being sides of three lengths 
+        // input is validated in main to ensure valid triangle can be made 
         public Triangle(double l1, double l2, double l3)
         {
             this.perimeter = l1 + l2 + l3;
             this.area = getArea(l1, l2, l3); 
+            //depending on if sides are equal , unique or two are the same , we can identify what typeof triangle we are creating 
             if(l1 == l2 && l2 == l3)
             {
                this.name = "Equalateral Triangle";

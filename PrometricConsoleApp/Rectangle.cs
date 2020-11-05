@@ -7,8 +7,9 @@ namespace PrometricConsoleApp
  
     class Rectangle : Shape
     {
-        
+        //rectangle uses properties from parent class Shape 
 
+        //when supplied a two side lengths we can calculate area and perimeter 
         public Rectangle(double l1, double l2)
         {
             this.name = "Rectangle";

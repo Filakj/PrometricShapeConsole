@@ -6,8 +6,12 @@
 /// 
 namespace PrometricConsoleApp
 {
+	/*Shape class to which all other shape classes inherit from
+	 * 
+	 */
 	public class Shape
 	{
+		//basic properties are name , area , and perimeter 
 		protected String name;
 		protected double perimeter;
 		protected double area;
@@ -16,27 +20,25 @@ namespace PrometricConsoleApp
 		{
 		}
 
+		//getter for a shape's name 
 		public String getName()
         {
 			return this.name; 
         }
 
+		//getter for a shape's area 
 		public double getArea()
 		{
 			return this.area;
 		}
 
+		//getter for a shape's perimeter 
 		public double getPerimeter()
 		{
 			return this.perimeter;
 		}
 
-		public Shape(String name, double perimieter, double area)
-		{
-			this.name = name;
-			this.perimeter = perimeter;
-			this.area = area;
-		}
+
 
 	}
 }
